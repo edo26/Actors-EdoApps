@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+
+        <TextView
+            android:id="@+id/iddetailnama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bradd Pitt"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp"
+            />
+
+        <ImageView
+            android:id="@+id/iddetailgambar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/noimage"
+            android:layout_marginBottom="16dp"
+            />
+
+        <TextView
+            android:id="@+id/iddetaildeskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi bla bla bla bla lorep isum telasooo  ajsdahdkjahksdjahskdjahd"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp"
+            />
+
+        <TextView
+            android:id="@+id/iddetaildob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2017-08-09T:00000000"
+            android:textSize="22dp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
